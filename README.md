@@ -159,12 +159,13 @@ Additional tools will be documented only after they are used in practical portfo
 
 This repository is one part of a broader QA portfolio.
 
-The next portfolio projects will focus on:
+The practical manual testing stage is demonstrated in the [DemoBlaze Manual Testing Project](https://github.com/anna-ska/manual-testing-demoblaze).
 
-1. manual testing of a live web application
-2. API testing using Postman
-3. basic SQL data validation
-4. defect and test management workflow
+Future portfolio development may include:
+
+1. API testing using Postman
+2. basic SQL data validation
+3. defect and test management workflow
 
 ## Status
 
