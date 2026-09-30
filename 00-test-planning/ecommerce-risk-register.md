@@ -99,13 +99,11 @@ is practical and justified by the available information.
 
 ## Risk Monitoring
 
-Risks should be reviewed during testing.
+In a project that includes dynamic test execution, risks should be reviewed as testing progresses.
 
-Changes in likelihood, impact, mitigation effectiveness, and newly identified
-risks should be recorded when relevant.
+Changes in likelihood, impact, mitigation effectiveness, and newly identified risks should be recorded when relevant.
 
-If new evidence becomes available, the ratings, responses, and status should be
-updated rather than treated as fixed values.
+Because this repository ends at the test-design phase, the risk statuses remain at their planning-stage values and were not updated through dynamic test execution.
 
 ## Project Note
 

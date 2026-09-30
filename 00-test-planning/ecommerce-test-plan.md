@@ -6,13 +6,15 @@ Training E-commerce Application
 
 ## Test Plan Version
 
-v1.0
+v1.1
 
 ## Test Objectives
 
-- Verify the in-scope shopping cart, checkout, coupon, and free-shipping behavior against the training test basis.
-- Identify and document defects, anomalies, and deviations found during planned manual testing activities.
-- Produce clear test evidence and a test completion report for the in-scope training work.
+- Define and document the test approach for the in-scope shopping cart, checkout, coupon, and free-shipping functionality.
+- Review the available test basis and identify relevant product and project risks.
+- Apply appropriate manual test design techniques to derive test conditions, test cases, checklists, and acceptance tests.
+- Demonstrate traceability between requirements, risks, test design artifacts, and simulated defect documentation.
+- Demonstrate defect reporting structure using a clearly identified simulated defect.
 
 ## Test Scope
 
@@ -25,8 +27,10 @@ v1.0
 
 ### Out of Scope
 
+- Dynamic test execution against a live application
 - Full performance assessment
 - Full security assessment
+- Test automation
 
 ## Test Basis
 
@@ -37,27 +41,31 @@ v1.0
 ## Assumptions and Constraints
 
 - This is a training QA project, not a commercial project.
-- Testing time is limited to five working days.
-- One tester is available.
-- Planned execution is manual unless a portfolio artifact explicitly states otherwise.
-- Some repository artifacts are design-only training examples; they are not presented as executed tests unless an executable feature is available.
+- The project is limited to test planning, analysis, design, and supporting documentation.
+- No executable application is required for completion of the intended project scope.
+- Dynamic test execution is intentionally outside the scope of this repository.
+- One tester is responsible for the project activities.
+- The planned project duration is five working days.
+- Simulated artifacts are explicitly identified and are not presented as results from real test execution.
 
 ## Stakeholders and Resources
 
-- One tester is responsible for test planning, analysis, design, execution, defect reporting, and test completion activities.
+- One tester is responsible for test planning, requirements review, risk analysis, test analysis and design, simulated defect documentation, and traceability.
 - Business expectations are represented by the training requirements and acceptance criteria stored in the repository.
 - No live commercial stakeholders are involved in this training project.
 
 ## Test Approach
 
-### Execution Approach
+### Design Approach
 
-- Dynamic test execution is performed manually where an executable feature is available.
-- Design-only artifacts are not presented as executed tests.
+- Testing activities are based on the available requirements and acceptance criteria.
+- Specification-based and experience-based test design techniques are applied where appropriate.
+- Dynamic test execution results are not included in this repository.
+- Test artifacts that depend on hypothetical behavior or execution are clearly identified as training assumptions or simulations.
 
 ### Test Types
 
-- Functional testing for the in-scope features
+- Functional test design for the in-scope features
 
 ### Test Techniques
 
@@ -66,56 +74,59 @@ v1.0
 - Decision Table Testing
 - State Transition Testing
 - Checklist-Based Testing
-- Exploratory Testing where appropriate
+- Acceptance Test Design
 
 ### Test Case Prioritization
 
 - Risk-based prioritization is based on the current risk analysis documented in the E-commerce Risk Register.
-- Dependencies and resource availability may require a lower-priority prerequisite test to be executed before a higher-priority dependent test.
+- Higher-risk areas receive greater test-design attention where practical and justified by the available information.
 
 ### Test Activities
 
 - Requirements review
+- Risk analysis
 - Test analysis and design
-- Test execution where an executable feature is available
-- Defect reporting
-- Confirmation testing when a defect fix is available
-- Regression testing after relevant changes
-- Test completion
+- Acceptance test design
+- Simulated defect reporting
+- Requirements traceability
+- Design-phase completion review
 
 ## Entry Criteria
 
 - In-scope training requirements and acceptance criteria are available in the repository.
 - The required tester is available.
-- Relevant test cases, checklists, and required test data are available before dynamic test execution.
-- The relevant test environment or executable demo feature is accessible for activities that require dynamic execution.
+- The available test basis contains sufficient information to begin requirements review and test design.
+- Identified assumptions and testability limitations can be documented where requirements are incomplete.
 
 ## Exit Criteria
 
-- All planned test activities have a documented outcome.
-- Planned tests for executable features have been executed, or tests that could not be executed are clearly identified with the reason documented.
-- All defects and significant test observations found during execution have been documented.
-- A test completion report has been prepared for the in-scope work.
+- Planned requirements review activities have been completed.
+- Planned test design artifacts have been prepared.
+- In-scope requirements have been mapped to relevant testware or review coverage where applicable.
+- Training assumptions and simulated artifacts are clearly identified.
+- Known limitations and areas without dynamic execution are documented.
+- The intended design-phase scope of the repository is complete.
 
 ## Test Environment
 
-- Dynamic tests are performed in a desktop web browser when an executable training or demo application is available.
-- The application/environment used for execution should be recorded with the relevant test evidence.
-- Specification-based artifacts without a matching executable feature remain design-only and are clearly identified as such.
+No executable test environment is required for completion of this design-only training project.
+
+Dynamic test execution is intentionally outside the scope of this repository. Environment details are documented separately in practical portfolio projects that include real test execution.
 
 ## Test Deliverables
 
-- Requirements review
+- Test Plan
+- Risk Register
+- Requirements Review
 - Test design artifacts
-- Test cases
-- Checklists
-- Defect reports
-- Test execution results
-- Test completion report
+- Acceptance tests
+- Checklist
+- Simulated defect report
+- Requirements Traceability Matrix
 
 ## Communication
 
-Testing progress and significant issues will be documented in the repository.
+Project progress, assumptions, limitations, and significant findings are documented in the repository.
 
 ## Risks
 
@@ -123,7 +134,7 @@ Product and project risks are documented in the E-commerce Risk Register.
 
 ## Schedule
 
-Planned testing duration: five working days.
+Planned design-phase duration: five working days.
 
 ## Budget
 
@@ -132,5 +143,9 @@ Not applicable to this training portfolio project.
 ## Project Note
 
 This is a training QA portfolio project.
+
+It demonstrates test planning, requirements review, risk analysis, test design, acceptance test design, simulated defect reporting, and requirements traceability.
+
+Dynamic test execution is intentionally outside the scope of this repository and is demonstrated separately in practical portfolio projects.
 
 It does not represent commercial project experience.
