@@ -131,18 +131,20 @@ Risk analysis is used to influence test priority and depth.
 
 ## Current Limitations
 
-This repository currently focuses mainly on test analysis, design, and documentation.
+This repository focuses on test analysis, design, and documentation.
 
-It does not yet represent a complete real-world test execution project.
+It intentionally does not represent a complete real-world test execution project.
 
-The following areas will be demonstrated in separate practical portfolio projects:
+Practical manual test execution against a live application is demonstrated separately in the [DemoBlaze Manual Testing Project](https://github.com/anna-ska/manual-testing-demoblaze), including:
 
-- execution of tests against a live application
 - Pass / Fail / Blocked test results
 - real test evidence
 - exploratory testing sessions
 - real defect reports
-- regression and confirmation testing
+- confirmation and regression testing where applicable
+
+Additional portfolio projects will cover:
+
 - API testing
 - SQL-based data validation
 
@@ -173,5 +175,4 @@ Design phase complete.
 
 This training repository is complete for its intended scope: test planning, requirements review, risk analysis, test design, acceptance test design, simulated defect reporting, and requirements traceability.
 
-Dynamic test execution is intentionally not represented in this repository and will be demonstrated in separate practical portfolio projects.
-
+Dynamic test execution is intentionally not represented in this repository and is demonstrated separately in the [DemoBlaze Manual Testing Project](https://github.com/anna-ska/manual-testing-demoblaze).
