@@ -163,11 +163,11 @@ This repository is one part of a broader QA portfolio.
 
 The practical manual testing stage is demonstrated in the [DemoBlaze Manual Testing Project](https://github.com/anna-ska/manual-testing-demoblaze).
 
-Future portfolio development may include:
+The completed practical portfolio also includes:
 
-1. API testing using Postman
-2. basic SQL data validation
-3. defect and test management workflow
+1. [API testing using Postman](https://github.com/anna-ska/api-testing-dummyjson)
+2. [SQL-based data validation](https://github.com/anna-ska/sql-testing-practice)
+3. [Jira/Xray test management practice](https://github.com/anna-ska/jira-xray-practice), with all execution results and defect-fix scenarios marked as simulated.
 
 ## Status
 
