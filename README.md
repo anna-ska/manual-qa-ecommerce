@@ -141,12 +141,12 @@ Practical manual test execution against a live application is demonstrated separ
 - real test evidence
 - exploratory testing sessions
 - real defect reports
-- confirmation and regression testing where applicable
+- documented limitations, including the absence of confirmation and regression testing because no fixes were available
 
-Additional portfolio projects will cover:
+Additional completed portfolio projects demonstrate:
 
-- API testing
-- SQL-based data validation
+- [API testing using Postman and DummyJSON](https://github.com/anna-ska/api-testing-dummyjson)
+- [SQL-based data validation using SQLite](https://github.com/anna-ska/sql-testing-practice)
 
 ## Tools Used
 
